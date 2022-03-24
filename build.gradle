@@ -20,7 +20,8 @@ buildscript {
     id 'com.android.library' version '7.1.2' apply false
     id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
 }
-
+// you need to config the gradle.settings tp respotory mode.PREFERR Settings
+//Link -> https://stackoverflow.com/questions/69163511/build-was-configured-to-prefer-settings-repositories-over-project-repositories-b
 allprojects {
 
     repositories {
