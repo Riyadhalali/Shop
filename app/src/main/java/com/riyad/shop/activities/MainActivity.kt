@@ -1,7 +1,8 @@
-package com.riyad.shop
+package com.riyad.shop.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.riyad.shop.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
