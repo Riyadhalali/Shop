@@ -1,5 +1,6 @@
 package com.riyad.shop.activities
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -34,5 +35,13 @@ class LoginActivity : AppCompatActivity() {
 
         Toast.makeText(this.applicationContext,"Did you forget your password? ",Toast.LENGTH_SHORT).show()
 
+    }
+
+    fun registerOnClick(view: View) {
+
+        // start another activity and go to register activity
+        val intent=Intent(this.applicationContext,RegisterActivity::class.java)
+
+        startActivity(intent)
     }
 }
